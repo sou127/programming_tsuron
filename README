@@ -1,3 +1,15 @@
 This is the git repository for my programming tsuron course at Kumamoto Kosen
 
+
+Report 1: Pointers & Memory
+Report 2; Dealing with Buffer Overflow
+Report 3: Pointers and Strings
+Report 4: Operations on Command Line Arguments (and Pointer to Function)
+Report 5: A drink menu project (using structures)
+Report 6: Understanding Endian System through Unions and Bitfields (IEEE 754)
+Report 7: Implementing Malloc (Dynamic Memory Allocation)
 Report 8: LinkedList Sushi PDT program
+Report 9: A simple shell program (processed and system calls)
+Report 10: Client-Server program
+Report 11: Program implementing Interprocess Communication (pipe and fork)
+Report 12: Multiple image processing (RGB to Grayscale) through Multi-Threading
