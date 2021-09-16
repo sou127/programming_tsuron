@@ -15,7 +15,7 @@ int receive_image(int socket){ // Start function
     FILE *image;
 
 
-    read(socket, filename, sizeof(char *));
+    read(socket, filename, 256);
 
     //Find the size of the image
     do{

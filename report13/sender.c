@@ -27,7 +27,7 @@ int send_image(int socket, char* local_file, char* remote_file){
 
   //Send remote file name
   printf("Sending Remote File Name\n");
-  write(socket, (void *)remote_file, sizeof(remote_file));
+  write(socket, (void *)remote_file, 256);
 
   //Send Picture Size
   printf("Sending Picture Size\n");
