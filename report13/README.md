@@ -14,6 +14,7 @@ gcc sender.c -o sender		// directory independent of receiver
 (Step 3):	
 <br />./sender 127.0.0.1 8080 local_file.jpg remote_file.jpg	//run client
 
+## Program Description
 
 ### Sender Program (sender.c):
 Lines 1-9: Required Header Files
