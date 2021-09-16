@@ -1,5 +1,5 @@
 ### A simple Client-Server Socket Program to send Image file from Client (Sender) to Server (Receiver). 
-## (GitHub Link: https://github.com/sou127/programming_tsuron/week13)
+## GitHub Link: https://github.com/sou127/programming_tsuron/week13
 
 ## Program Usage: Compile sender.c and receiver.c on locations desired (remote or local computer). 
 
@@ -13,7 +13,6 @@
 
 
 ## Sender Program (sender.c):
-
 Lines 1-9: Required Header Files
 
 Lines 11-59: Function for Sending Image <br />
@@ -37,7 +36,6 @@ Breakdown of the main function: <br />
 
 
 ## Receiver Program (receive.c):
-
 Lines 1-9: Required Header Files
 
 Lines 11-91: Function for Receiving Image <br />
