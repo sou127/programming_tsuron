@@ -1,8 +1,9 @@
-Program Description: A simple Client-Server Socket Program to send Image file from Client (Sender) to Server (Receiver). (GitHub Link: https://github.com/sou127/programming_tsuron/week13)
+### A simple Client-Server Socket Program to send Image file from Client (Sender) to Server (Receiver). 
+## (GitHub Link: https://github.com/sou127/programming_tsuron/week13)
 
-Program Usage: Compile sender.c and receiver.c on locations desired (remote or local computer). 
+## Program Usage: Compile sender.c and receiver.c on locations desired (remote or local computer). 
 
-Example: <br />
+## Example: <br />
 (Step 1):	gcc receiver.c -o receiver
 		gcc sender.c -o sender		// directory independent of receiver
 
@@ -11,7 +12,7 @@ Example: <br />
 (Step 3):	./sender 127.0.0.1 8080 local_file.jpg remote_file.jpg	//run client
 
 
-Sender Program (sender.c):
+## Sender Program (sender.c):
 
 Lines 1-9: Required Header Files
 
@@ -31,11 +32,11 @@ Breakdown of the main function: <br />
 	Lines 83-86: Preparing the sockaddr structure <br />
 	Lines 89-95: Connecting to remote server <br />
 	Line 97: Calling the send image function <br />
-	Line 98: Closing the socket after use <br />
+	Line 98: Closing the socket after use <br /><br /><br />
 
 
 
-Receiver Program (receive.c):
+## Receiver Program (receive.c):
 
 Lines 1-9: Required Header Files
 
