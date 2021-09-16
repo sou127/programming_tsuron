@@ -4,15 +4,15 @@
 ### Program Usage: Compile sender.c and receiver.c on locations desired (remote or local computer). 
 
 ### Example: <br />
-####(Step 1):	
-gcc receiver.c -o receiver	<br />
+(Step 1):	
+<br />gcc receiver.c -o receiver	<br />
 gcc sender.c -o sender		// directory independent of receiver
 
-####(Step 2):	
-./receiver 8080		//run server first (important)
+(Step 2):	
+<br />./receiver 8080		//run server first (important)
 
-####(Step 3):	
-./sender 127.0.0.1 8080 local_file.jpg remote_file.jpg	//run client
+(Step 3):	
+<br />./sender 127.0.0.1 8080 local_file.jpg remote_file.jpg	//run client
 
 
 ### Sender Program (sender.c):
