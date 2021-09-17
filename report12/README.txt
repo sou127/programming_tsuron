@@ -18,50 +18,28 @@ How to run (conversion):
 
 Program Documentation:
 
-Line 8
-	- Declaration of global variable argp
 
-Lines 10
-	- Declaration of routine function (this converts a single rgb image to jpg)
-
-Lines 12 - 48
-	- main function
-
-	Line 15
-		- assigning argv to global variable argp
-
-	Line 16
-		- initializing thread of size argc - 1 (as the first argument is program name)
-
-	Line 18-19 & 29-42
-		- time calculation and printing
-
-	Line 21-27
-		- creating required number of threads using pthread_create and pthread_join in for loop each, sending each command line argument per thread
-
-Lines 48 - 95
-	- routine function definition
-
-	Line 50-61
+Lines 8-51: routine function (converts a single rgb image to gray) 
+	Line 9-18
 		- Declaration of variables
-
-	Line 63 
+	Line 20 
 		- copying filename to IntputFileName
-
-	Line 64
-		- checking for .jpg extension in IntputFileName
-
-	Line 65-68
-		- printing error, if extension mismatch
-
-	Line 69-76
+	Line 21-25
+		- error handling for extension mismatch
+	Line 26-33
 		- performing rename operation with _gray, and writing to OutputFileName
-
-	Line 78-81
-		- error printing, if decode error
-
-	Line 85-91
-		- converting rgb image to grayscale image, and writing to the OutputFileName created on lines 69-76
-
-	Line 93
+	Line 35-38
+		- error handling for decode error
+	Line 42-48
+		- converting rgb image to grayscale image, and writing to the OutputFileName
+	Line 50
 		- releasing raw memory
+
+
+Lines 53-85: main function
+	Line 55
+		- declaring required number of threads
+	Line 18-19 & 29-42
+		- time calculation (before & after finishing the conversion operation)
+	Line 21-27
+		- calling conversion function (routine) through the threads
